@@ -14,7 +14,7 @@ class client():
         # 创建主窗口
         self.root = Tk()
         # 设置主窗口Title
-        self.root.title('黑客松Client Dialog')
+        self.root.title('Client Dialog')
         # 设置主窗口大小
         self.root.geometry('600x400')
         # 建立socket通讯
