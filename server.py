@@ -14,7 +14,7 @@ class server():
     def __init__(self):
         # 绘制主窗口、设置title、设置主窗口大小
         self.root = Tk()
-        self.root.title('黑客松Server Dialog')
+        self.root.title('Server Dialog')
         self.root.geometry('600x400')
 
         # 设置默认的IP地址和端口号，可手动配置
